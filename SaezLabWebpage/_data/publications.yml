@@ -1,0 +1,98 @@
+- citation: 'Perea V, Cole C, Lebeau J, Dolina V, Baron KR, Madhavan A, Kelly JW, **Grotjahn DG,** Wiseman RL. PERK signaling promotes mitochondrial elongation by remodeling membrane phosphatidic acid. *bioRxiv* 2022'
+  image: '/static/img/publications/PareaV_PAPerk_2022biorxiv.png'
+  biorxiv: 2022.02.23.481593
+  pdf: '/static/pdf/Parea_PAPerk_2022biorxiv.pdf'
+  links:
+    - name: "Wiseman Lab"
+      url: 'http://www.wiseman.scripps.edu/'
+
+- citation: '**Barad BA†, Medina M†, Fuentes D,** Wiseman, RL, **Grotjahn DA§**. A surface morphometrics toolkit to quantify organellar membrane ultrastructure using cryo-electron tomography. *bioRxiv* 2022 †Equal contribution §Corresponding author'
+  image: '/static/img/publications/surfacemorphometrics-01.png'
+  biorxiv: 2022.01.23.477440
+  pdf: '/static/pdf/Barad_Medina_Membrane_Morphometrics.pdf'
+  links:
+    - name: "Surface Morphometrics"
+      url: 'https://github.com/GrotjahnLab/surface_morphometrics/'
+    - name: "Wiseman Lab"
+      url: 'http://www.wiseman.scripps.edu/'
+
+- citation: 'Mageswaran, SK†, **Grotjahn DA†§**, Zeng X, **Barad BA, Medina M**, Hoang MH, Dobro MJ, Chang YW, Xu M, Yang WY, Jensen, GJ§ . Nanoscale details of mitochondrial fission revealed by cryo-electron tomgoraphy. *bioRxiv* 2021 †Equal contribution §Corresponding authors'
+  image: '/static/img/publications/Apr20_TS02_ModelMT.png'
+  biorxiv: 2021.12.13.472487
+  pdf: '/static/pdf/Mageswaran_Grotjahn_MitochondrialFission-CryoET_biorxiv.pdf'
+  links:
+    - name: "scripts for quantifying filament architectures"
+      url: 'https://github.com/GrotjahnLab/measure_models/'
+    - name: "Jensen Lab"
+      url: 'http://www.jensenlab.caltech.edu/'
+
+- citation: 'Basanta B, Hirschi MM, **Grotjahn DA**, Lander, GC. A case for glycerol as an acceptable additive for single particle cryoEM samples. *Acta Crystallogr D Struct Biol* 2022'
+  date: 220101
+  image: '/static/img/publications/Glycerol_2021.png'
+  pmid: 34981768 
+  pmcid: PMC8725161
+  biorxiv: 2021.09.10.459874
+  pdf: '/static/pdf/Basanta_glycerol_2021_actacrysD.pdf'
+  links:
+    - name: "Lander Lab"
+      url: 'http://www.lander-lab.com/'
+
+- citation: 'Gardner A, Ludovic A, **Fuentes D**, Maritan M, **Barad BA**, **Medina, M**, Olson AJ, **Grotjahn DA**, Goodsell DS. CellPAINT: Turnkey illustration of molecular cell biology. *Front. Bioinform* 2021'
+  date: 212903
+  image: '/static/img/publications/CellPAINT_2021.jpeg'
+  pdf: '/static/pdf/2021_CellPaint.pdf'
+  pmid: 34790910
+  pmcid: PMC8594902
+  zenodo: 
+    - code: '4606923'
+      description: 'Tomogram used for CellPAINT hypothesis generation'
+  links:
+    - name: "Molecular Graphics Laboratory"
+      url: 'https://ccsb.scripps.edu/goodsell/'
+
+- citation: 'Basanta B, Chowdhury S, Lander GC§, **Grotjahn DA§**. A guided approach for subtomogram averaging of challenging macromolecular assemblies. *JSBx* 2020 §Corresponding authors'
+  date: 201811
+  image: '/static/img/publications/Grotjahn_2020_STAguided.jpg'
+  pmid: 33319208
+  pmcid: PMC7724198  
+  biorxiv: 2020.02.01.930297
+  pdf: '/static/pdf/GuidedSTA_JSBx.pdf'
+  links:
+    - name: "guided_tomo_align scripts"
+      url: 'https://github.com/GrotjahnLab/guided_tomo_align/'
+    - name: "Lander Lab"
+      url: 'http://www.lander-lab.com/'
+
+- citation: '**Grotjahn DA** and Lander GC. Setting the dynein motor in motion: New insights from electron tomography. *JBC* 2019.'
+  date: 201909
+  image: '/static/img/publications/Grotjahn_review_2019.png'
+  pmid: 31285262
+  pmcid: PMC6737236 
+  pdf: '/static/pdf/Grotjahn_Review_2019.pdf'
+  links:
+    - name: "Lander Lab"
+      url: 'http://www.lander-lab.com/'
+
+
+- citation: '**Grotjahn DA**, Chowdhury S, Xu Y, McKenney RJ, Schroer TA, Lander GC. Cryo-electron tomography reveals that dynactin recruits a team of dyneins for processive motility. *NSMB* 2018.'
+  date: 201803
+  image: '/static/img/publications/Grotjahn_2018_trimmed.gif'
+  pmid: 29416113
+  pmcid: PMC5969528
+  biorxiv: 182576
+  pdf: '/static/pdf/Grotjahn_DyneinDynactin.pdf'
+  emdbs:
+    - 7000
+    - 7001
+  links:
+    - name: "Lander Lab"
+      url: 'http://www.lander-lab.com/'
+    - name: "F1000Prime"
+      url: 'https://f1000.com/prime/731819271'
+
+- citation: 'Ge X, **Grotjahn DA**, Welch E, Lyman-Gingerich J, Holguin C, Dimitrova E, Abrams EW, Gupta T, Marlow FL, Yabe T, Adler A, Mullins MC, Pelegri F. *PLOS Genetics* 2014.'
+  date: 201406
+  image: '/static/img/publications/Grotjahn_Pelegri_2014.png'
+  pmid: 24967891
+  pmcid: PMC4072529 
+  pdf: '/static/pdf/Grotjahn_Pelegri_2014.PDF'
