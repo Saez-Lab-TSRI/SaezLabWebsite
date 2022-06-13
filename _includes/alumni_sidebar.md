@@ -3,11 +3,11 @@
 {% for member in sorted %}
 <hr>
 
-<div id = "{{member.name}}" style="padding-top: 60px; margin-top: -60px;">
+<div id = "{{ member.name }}" style="padding-top: 60px; margin-top: -60px;">
 
-<strong>{{member.name}}</strong> - <em>{{member.position}}</em> <br>
+<strong>{{ member.name }}</strong> - <em>{{ member.position }}</em> <br>
 {% if member.pronouns %}
-    <em>{{member.pronouns}}</em> <br>
+    <em>{{ member.pronouns }}</em> <br>
 {% endif %}
 <!-- Dates -->
 {% assign start = member.startdate | date:"%Y" %}
@@ -33,7 +33,7 @@
 {% if member.orcid %}
     <a href="http://orcid.org/{{member.orcid}}" class="align-middle"> 
     <img class="inline-block mem-logo" src="/static/img/logo/orcid_logo.svg">
-{{member.orcid}}
+{{ member.orcid }}
 </a> <br>
 {% endif %}
 {% if member.linkedin %}
@@ -49,7 +49,7 @@
 {% if member.twitter %}
     <a href= "http://twitter.com/{{member.twitter}}">
     <img class="inline-block mem-logo" src="/static/img/logo/twitter_logo.svg">
-    @{{member.twitter}} 
+    @{{ member.twitter }} 
     </a> <br>
 {% endif %}
 {% if member.github %}
