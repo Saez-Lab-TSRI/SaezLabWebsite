@@ -59,27 +59,3 @@
 </div>
 {% endfor %}
 <br>
-
-## Interns
-
-{% assign sorted = (site.interns | sort: "enddate") | reverse %}
-{% for intern in sorted %}
-<hr>
-
-<div id = "{{intern.name}}" style="padding-top: 60px; margin-top: -60px;">
-<strong>{{intern.name}}</strong><br>
-{% if intern.pronouns %}<em>{{intern.pronouns}}</em><br>{% endif %}
-<!-- Dates -->
-{% assign start = intern.startdate | date:"%Y" %}
-{% assign end = intern.enddate | date:"%Y" %}
-{% if start == end %}
-{{ start }}<br>
-{% else %}
-{{ start }} - {{ end }}<br>
-{% endif %}
-{% if intern.subsequent %}
-Subsequently: {{intern.subsequent}}<br>
-{% endif %}
-
-{% endfor %}
-</div>
